@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GangPet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Dịch vụ</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Liên Hệ</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top" style="background-color: #7ed957;">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left"style="background-color: #7ed957;" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16"style="background-color: #7ed957;">Shop GangPet</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px" >
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./quan sát/image/chim/petpro.jpg" alt="Sandwich" style="width:100%">
+      <h3>Bệnh viện thú y PetPro</h3>
+      <p>Địa chỉ: 192/7 Phú Thọ Hòa, P. Phú Thọ Hòa, Quận Tân Phú, TP.Hồ Chí Minh</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./quan sát/image/chim/petpro.jpg" alt="Steak" style="width:100%">
+      <h3>PetPro CN Cộng Hòa</h3>
+      <p>Địa chỉ: 387-389 Cộng Hòa, P.13, Quận Tân Bình, TP.Hồ Chí Minh.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="./quan sát/image/chim/petpro.jpg" alt="Steak" style="width:100%">
+        <h3>PetPro PetShop</h3>
+        <p>Địa chỉ:
+            383 Nguyễn An Ninh , Phường 9, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu</p>
+      </div>
+    <div class="w3-quarter">
+      <img src="./quan sát/image/chim/dogmom.jpg" alt="Cherries" style="width:100%">
+      <h3>Dogs Mom</h3>
+      <p>Địa chỉ: 87 Trịnh Đình Thảo, Quận Tân Phú, TP.Hồ Chí Minh.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="./quan sát/image/chim/kingdom.jpg" alt="Popsicle" style="width:100%">
+      <h3>Pets Kingdom Đà Lạt</h3>
+      <p>Địa chỉ: 115 Nguyễn Văn Trỗi, P2, Thành phố Đà Lạt, Lâm Đồng.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="./quan sát/image/chim/saigon.jpg" alt="Pasta and Wine" style="width:100%">
+        <h3>Petsaigon</h3>
+        <p>Địa chỉ:
+            178 Nguyễn Thị Định, P. Bình Trưng Tây, Quận 2, TP.Hồ Chí Minh</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="./quan sát/image/chim/petkia.jpg" alt="Pasta and Wine" style="width:100%">
+        <h3>PetCare</h3>
+        <p>Địa chỉ:
+            124A Xuân Thủy, P. Thảo Điền, Quận 2, TP.Hồ Chí Minh</p>
+      </div>
+    <div class="w3-quarter">
+      <img src="./quan sát/image/chim/Akipi Pet House.jpg" alt="Croissant" style="width:100%">
+      <h3>Akipi Pet House</h3>
+      <p>Địa chỉ:
+        154 Lê Đại Hành, Quận 11, TP.Hồ Chí Minh.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="w3-center col-sm-3 col-md-6 col-lg-4">
+          <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.391824667874!2d108.2562051141689!3d15.993105845723125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314210958476684d%3A0x6e4831f1ceaa579b!2zNDcwIMSQxrDhu51uZyBUcuG6p24gxJDhuqFpIE5naMSpYSwgSG_DoCBI4bqjaSwgTmfFqSBIw6BuaCBTxqFuLCDEkMOgIE7hurVuZyA1NTAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1620788390157!5m2!1sen!2s"
+                  width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      <div class=" col-sm-9 col-md-6 col-lg-8">
+          <h4>Liên Hệ</h4>
+          <form action="/action_page.php" target="">
+            <p><input class="w3-input w3-border" type="text" placeholder="Tên" name="Name" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Địa chỉ" name="Subject" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Nội dung" name="Message" required></p>
+            <button type="submit" class="w3-button w3-block w3-black">Gửi</button>
+          </form>
+        </div>
+    </div>
+        </div>
+      </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32" style=" background-image: linear-gradient(to right, rgb(179, 132, 32), rgb(190, 218, 113));">
+    <div class="w3-third">
+      <h3>Vể chúng tôi</h3>
+      <a href=""><span>Giới thiệu</span></a>
+      <br>
+      <a><span>Tuyển dụng</span></a>
+      <br>
+      <a href=""><span>Quy chế hoạt động</span></a>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Liên Hệ</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <a href="index.html"><img src="./quan sát/image/logo/meogang.svg" class="w3-left w3-margin-right" style="width:50px"></a>
+          <span class="w3-large">Shop</span><br>
+          <span>Gang Pet</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>Hỗ trợ khách hàng</h3>
+      <a href=""><span>Liên hệ hỗ trợ</span></a>
+      <br>
+      <a><span>Những câu hỏi thường gặp</span></a>
+      <br>
+      <a href=""><span>Chính sách bảo vệ thông tin</span></a>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

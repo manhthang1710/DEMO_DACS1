@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hệ thống/css/searchpet.css">
+    <link rel="stylesheet" href="./hệ thống/css/home.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./hệ thống/css/slide.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <title>MeoGang-Shop</title>
+</head>
+<body>
+    <div class="root">
+        <div class="light-theme">
+            <div class="container-fluid header desktop">
+                <div class="header-bar">
+                    <a href="index.html">
+                        <img class="logo" src="./quan sát/image/logo/meogang.svg" alt="" ></a>
+                        <div class="header-search-bar">
+                            <input placeholder="Tìm kiếm trên Chợ Pet" maxlength="50" class="input" type="search" value="">
+                            <div class="search-option">
+                                <div class="wrap">
+                                    <select class="pet">
+                                        <option><button class="btn-pet">Thú Cưng</button></option>
+                                        <option><button class="btn-pet">Sản Phẩm</button></option>
+                            </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav"><a class="link" href="/tin-tuc">
+                            <div class="icon-wrap">
+                                <svg viewBox="0 0 50 50" class="icon">
+                                    <path d="M41.58,4.06H4.36a3.93,3.93,0,0,0-1.09.15l-.63.33L1.71,5l-.05,0A4.17,4.17,0,0,0,.18,8.23V45.46a4.2,4.2,0,0,0,4.18,4.2H41.58a4.21,4.21,0,0,0,3.48-1.86l.2-.41.34-.75a4.1,4.1,0,0,0,.17-1.18V8.23A4.2,4.2,0,0,0,41.58,4.06ZM4.69,10.32H41.24a1.55,1.55,0,1,1,0,3.1H4.69a1.55,1.55,0,0,1,0-3.1Zm0,8H41.24a1.55,1.55,0,1,1,0,3.09H4.69a1.55,1.55,0,0,1,0-3.09Zm0,8.6H41.24a1.55,1.55,0,1,1,0,3.1H4.69a1.55,1.55,0,0,1,0-3.1Zm0,8.6H36.07a1.55,1.55,0,0,1,0,3.09H4.69a1.55,1.55,0,0,1,0-3.09Z"></path>
+                                    <path d="M49.51,4.42V41.64a4.23,4.23,0,0,1-.17,1.19L48.79,44a4.15,4.15,0,0,1-1.7,1.46,4.09,4.09,0,0,0,.17-1.17V7a4.2,4.2,0,0,0-4.18-4.17H5.85A4.18,4.18,0,0,0,4.74,3l-.69.36A4,4,0,0,1,5.4,1.24l0-.05L7,.4A3.81,3.81,0,0,1,8.1.25H45.32A4.19,4.19,0,0,1,49.51,4.42Z"></path>
+                                </svg>
+                            </div>
+                            <span class="label">Tin tức</span>
+                        </a>
+                        <div class="link">
+                            <div class="icon-wrap">
+                                <svg viewBox="0 0 50 50" class="icon news-icon">
+                                    <path d="M34.47,47.64H8.92A8.4,8.4,0,0,1,.58,39.31V13.76A8.38,8.38,0,0,1,8.92,5.41H34.45a8.36,8.36,0,0,1,6.71,3.41,8.23,8.23,0,0,1,1.64,4.94V39.3A8.37,8.37,0,0,1,34.47,47.64ZM8.92,7.41a6.38,6.38,0,0,0-6.34,6.35V39.3a6.39,6.39,0,0,0,6.35,6.34H34.46A6.36,6.36,0,0,0,40.8,39.3V13.76A6.19,6.19,0,0,0,39.55,10h0a6.35,6.35,0,0,0-5.1-2.59Z"></path>
+                                    <rect x="6.46" y="12.79" width="32.56" height="1.43" rx="0.47" ry="0.47"></rect>
+                                    <rect x="6.46" y="20.99" width="30.45" height="1.43" rx="0.47" ry="0.47"></rect>
+                                    <rect x="6.46" y="29.2" width="23.74" height="1.43" rx="0.47" ry="0.47"></rect>
+                                    <path d="M36.35,24.84l7.56-9.43.14-.18,1.22-1.52,2.22-2.77-1.75-1.4-1-.78-.24-.18L43,10.48,40.9,13.07l-1,1.25-2,2.46-1.06,1.33-2,2.46-1,1.31-2,2.46-.68.86a1.47,1.47,0,0,0-.27.47,2.13,2.13,0,0,0-.13.93v.09l-.28,1.87-.08.6.22-.08,2.22-.84a1.91,1.91,0,0,0,1.27-.68l1.11-1.39Z"></path>
+                                    <path d="M49,9.22l-.57.72-.09-.11-2.2-1.75-.69-.55L46,6.81a2.54,2.54,0,0,1,.29-.28h0a2,2,0,0,1,2.36,0h0A2,2,0,0,1,49,9.22Z"></path>
+                                </svg>
+                            </div>
+                            <div class="dropdown">
+                            <span class="label">Đăng tin</span>
+                            <div class="dropdown-content">
+                                <a href="muabanthucung.html"><bottom>Đăng tin thú cưng</bottom></a>
+                                <a href="sanpham.html"><bottom>Đăng tin sản phẩm</bottom></a>
+                            </div>
+                        </div>
+                        </div>
+                       
+            </div>
+                    </div>
+            </div>
+            <div class="container-fluid navbar desktop">
+                <ul class="container nav-wrapper" itemscope="" itemtype="">
+                    <li class="py-3 nav-categories" itemscope="" itemtype="" itemprop="">
+                        <div class="dropdown">
+                        <div class="py-6 category-item">
+                            <span class="category-name p-6 false">Chó</span>
+                            <svg viewBox="0 0 50 50" class="image">
+                                <path d="M49.08,15.49,27.73,39.27c-.1.1-.2.3-.4.3a2.09,2.09,0,0,1-1,.61,3.05,3.05,0,0,1-2.64,0,2.09,2.09,0,0,1-1-.61c-.2,0-.3-.2-.4-.3L.92,15.49a3.54,3.54,0,0,1,.3-5.06,3.62,3.62,0,0,1,2.43-.91,3.85,3.85,0,0,1,2.63,1.11L25,31.58,43.72,10.63a3.85,3.85,0,0,1,2.63-1.11,3.62,3.62,0,0,1,2.43.91A3.54,3.54,0,0,1,49.08,15.49Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href=""><bottom>Chó Husky-Anlasca</bottom></a>
+                            <a href=""><bottom>Chó Shiba-Akita</bottom></a>
+                            <a href=""><bottom>Chó Bull</bottom></a>
+                            <a href=""><bottom>Chó Golden-Labrado</bottom></a>
+                            <a href=""><bottom>Chó Poodle</bottom></a>
+                            <a href=""><bottom>Chó Pug</bottom></a>
+                            <a href=""><bottom>Chó Corgi</bottom></a>
+                            <a href=""><bottom>Chó Chihuahua-Phốc</bottom></a>
+                            <a href=""><bottom>Dòng chó khác</bottom></a>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="py-3 nav-categories" itemscope="" itemtype="" itemprop="">
+                        <div class="dropdown">
+                        <div class="py-6 category-item">
+                            <span class="category-name p-6 false">Mèo</span>
+                            <svg viewBox="0 0 50 50" class="image">
+                                <path d="M49.08,15.49,27.73,39.27c-.1.1-.2.3-.4.3a2.09,2.09,0,0,1-1,.61,3.05,3.05,0,0,1-2.64,0,2.09,2.09,0,0,1-1-.61c-.2,0-.3-.2-.4-.3L.92,15.49a3.54,3.54,0,0,1,.3-5.06,3.62,3.62,0,0,1,2.43-.91,3.85,3.85,0,0,1,2.63,1.11L25,31.58,43.72,10.63a3.85,3.85,0,0,1,2.63-1.11,3.62,3.62,0,0,1,2.43.91A3.54,3.54,0,0,1,49.08,15.49Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href="muabanthucung.html"><bottom>Mèo Sphynx</bottom></a>
+                            <a href=""><bottom>Mèo Ragdoll</bottom></a>
+                            <a href=""><bottom>Mèo Xiêm</bottom></a>
+                            <a href=""><bottom>Mèo Anh Lông Ngắn</bottom></a>
+                            <a href=""><bottom>Mèo Anh Lông Dài</bottom></a>
+                            <a href=""><bottom>Mèo Ba Tư</bottom></a>
+                            <a href=""><bottom>Mèo Munchkin</bottom></a>
+                            <a href=""><bottom>Giống Mèo Khác</bottom></a>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="py-3 nav-categories" itemscope="" itemtype="" itemprop="">
+                        <div class="dropdown">
+                        <div class="py-6 category-item">
+                            <span class="category-name p-6 false">Chim cảnh</span>
+                            <svg viewBox="0 0 50 50" class="image">
+                                <path d="M49.08,15.49,27.73,39.27c-.1.1-.2.3-.4.3a2.09,2.09,0,0,1-1,.61,3.05,3.05,0,0,1-2.64,0,2.09,2.09,0,0,1-1-.61c-.2,0-.3-.2-.4-.3L.92,15.49a3.54,3.54,0,0,1,.3-5.06,3.62,3.62,0,0,1,2.43-.91,3.85,3.85,0,0,1,2.63,1.11L25,31.58,43.72,10.63a3.85,3.85,0,0,1,2.63-1.11,3.62,3.62,0,0,1,2.43.91A3.54,3.54,0,0,1,49.08,15.49Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href=""><bottom>Vẹt-Yến Phụng</bottom></a>
+                            <a href=""><bottom>Chích chòe</bottom></a>
+                            <a href=""><bottom>Chào Mào</bottom></a>
+                            <a href=""><bottom>Chim Cảnh Khác</bottom></a>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="py-3 nav-categories" itemscope="" itemtype="" itemprop="">
+                        <div class="dropdown">
+                        <div class="py-6 category-item">
+                            <span class="category-name p-6 false">Cá Cảnh</span>
+                            <svg viewBox="0 0 50 50" class="image">
+                                <path d="M49.08,15.49,27.73,39.27c-.1.1-.2.3-.4.3a2.09,2.09,0,0,1-1,.61,3.05,3.05,0,0,1-2.64,0,2.09,2.09,0,0,1-1-.61c-.2,0-.3-.2-.4-.3L.92,15.49a3.54,3.54,0,0,1,.3-5.06,3.62,3.62,0,0,1,2.43-.91,3.85,3.85,0,0,1,2.63,1.11L25,31.58,43.72,10.63a3.85,3.85,0,0,1,2.63-1.11,3.62,3.62,0,0,1,2.43.91A3.54,3.54,0,0,1,49.08,15.49Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href=""><bottom>Cá rồng </bottom></a>
+                            <a href=""><bottom>Cá Koi</bottom></a>
+                            <a href=""><bottom>Cá La Hán</bottom></a>
+                            <a href=""><bottom>Cá Cảnh Khác</bottom></a>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="py-3 nav-categories" itemscope="" itemtype="" itemprop="">
+                        <div class="dropdown">
+                        <div class="py-6 category-item">
+                            <span class="category-name p-6 false">Thú Cưng Khác</span>
+                            <svg viewBox="0 0 50 50" class="image">
+                                <path d="M49.08,15.49,27.73,39.27c-.1.1-.2.3-.4.3a2.09,2.09,0,0,1-1,.61,3.05,3.05,0,0,1-2.64,0,2.09,2.09,0,0,1-1-.61c-.2,0-.3-.2-.4-.3L.92,15.49a3.54,3.54,0,0,1,.3-5.06,3.62,3.62,0,0,1,2.43-.91,3.85,3.85,0,0,1,2.63,1.11L25,31.58,43.72,10.63a3.85,3.85,0,0,1,2.63-1.11,3.62,3.62,0,0,1,2.43.91A3.54,3.54,0,0,1,49.08,15.49Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href=""><bottom>Bò Sát</bottom></a>
+                            <a href=""><bottom>Thỏ Cảnh</bottom></a>
+                            <a href=""><bottom>Hamter-Nhím Bọ Ú</bottom></a>
+                            <a href=""><bottom>Thú Cưng Khác</bottom></a>
+                        </div>
+                    </div>
+                    </li>
+    </ul>
+</div>
+<div class="main-layout">
+    <div class="container-fluid pet-filter-page">
+        <class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="sidebar-pet-filter desktop">
+                        <div class="filter">
+                            <svg viewBox="0 0 50 50" class="icon">
+                                <path d="M31.15,38.46a6.06,6.06,0,0,1-2.4,5.19c-1.67,1.33-3.27,2.77-4.92,4.13a14.21,14.21,0,0,1-1.26.94,2.24,2.24,0,0,1-1.31.41,2.14,2.14,0,0,1-1.34-.44,3.26,3.26,0,0,1-1.12-2.85q.06-6.59,0-13.19H31.13C31.11,34.59,31.13,36.52,31.15,38.46Z"></path>
+                                <path d="M45.53,6.27c-1.6,3-3.47,5.73-5.25,8.58-2.84,4.52-5.71,9-8.51,13.58a4,4,0,0,0-.56,1.67H18.77a3.8,3.8,0,0,0-.54-1.61c-4.31-6.9-8.66-13.78-13-20.69A13.67,13.67,0,0,1,4.13,5.65,3.26,3.26,0,0,1,7.34,1c2,0,3.91,0,5.87,0h29C45.61,1,47.14,3.29,45.53,6.27Z"></path>
+                             </svg>
+                             <h3 class="sidebar-title">Bộ lọc tìm kiếm</h3>
+                        </div>   
+                        <form class="av-form">
+                            <div class="av-hidden">
+                                <input id="is_hot" type="hidden" name="is_hot">
+                            </div>
+                            <div class="av-hidden">
+                                <input id="page" type="hidden" name="page">
+                            </div>
+                            <div class="av-text search-bar">
+                                <label class="av-label" for="keywords"></label>
+                                <input class="av-input" id="keywords" type="text" name="keywords" placeholder="Tìm kiếm trên Chợ Pet" maxlength="50" value="">
+                                <span class="error"></span>
+                            </div>
+                            <div class="av-select sidebar-select">
+                                <div class=" css-2b097c-container">
+                                    <div class=" css-yk16xz-control">
+                                        <div class=" css-1hwfws3">
+                                            <div class=" css-1wa3eu0-placeholder">
+                                                <div class="av-select-placeholder">Loại thú cưng
+
+                                                </div>
+                                            </div>
+                                            <div class="css-1g6gooi">
+                                                <div class="" style="display: inline-block;">
+                                                    <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-pet_category_id-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                                                    <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 12px; font-family: Open Sans, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" css-1wy0on6">
+                                            <span class=" css-1okebmr-indicatorSeparator">
+
+                                            </span>
+                                            <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
+                                                <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
+                                                    <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" id="pet_category_id" name="pet_category_id" value="">
+                            <span class="error">
+                            </span>
+                        </div>
+                        <div class="av-select sidebar-select">
+                            <label class="av-label" for="province_id">Khu vực</label>
+                            <div class=" css-2b097c-container">
+                                <div class=" css-yk16xz-control">
+                                    <div class=" css-1hwfws3">
+                                        <div class=" css-1wa3eu0-placeholder">
+                                            <div class="av-select-placeholder">Chọn Tỉnh/Thành Phố</div>
+                                        </div>
+                                        <div class="css-1g6gooi">
+                                            <div class="" style="display: inline-block;">
+                                                <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-province_id-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                                                <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 12px; font-family: Open Sans, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" css-1wy0on6">
+                                        <span class=" css-1okebmr-indicatorSeparator">
+                                        </span>
+                                        <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
+                                            <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
+                                                <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" id="province_id" name="province_id" value="">
+                            <span class="error"></span>
+                        </div>
+                        <div class="av-input-price sidebar-select">
+                            <label class="av-label" for="price_start">Từ mức giá</label>
+                            <input type="text" class="av-input" placeholder="0" value="">
+                            <input type="hidden" name="price_start">
+                            <span class="error"></span>
+                        </div>
+                        <div class="av-input-price sidebar-select">
+                            <label class="av-label" for="price_end">Đến mức giá</label>
+                            <input type="text" class="av-input" placeholder="0" value="">
+                            <input type="hidden" name="price_end">
+                            <span class="error"></span>
+                        </div>
+                        <div class="av-checkbox-group vertical">
+                            <span class="av-label">Loại tin</span>
+                            <div class="item vertical">
+                                <input class="input" name="post_type" type="checkbox" id="post_type0" value="1">
+                                <label for="post_type0" class="value-label">
+                                    <span>Bán</span>
+                                </label>
+                            </div>
+                            <div class="item vertical">
+                                <input class="input" name="post_type" type="checkbox" id="post_type1" value="2">
+                                <label for="post_type1" class="value-label">
+                                    <span>Mua</span>
+                                </label>
+                            </div>
+                            <div class="item vertical">
+                                <input class="input" name="post_type" type="checkbox" id="post_type2" value="3">
+                                <label for="post_type2" class="value-label">
+                                    <span>Phối giống</span>
+                                </label>
+                            </div>
+                            <div class="item vertical">
+                                <input class="input" name="post_type" type="checkbox" id="post_type3" value="4">
+                                <label for="post_type3" class="value-label">
+                                    <span>Tìm thất lạc</span>
+                                </label>
+                            </div>
+                            <div class="item vertical">
+                                <input class="input" name="post_type" type="checkbox" id="post_type4" value="5">
+                                <label for="post_type4" class="value-label">
+                                    <span>Cho tặng</span>
+                                </label>
+                            </div>
+                        <span class="error"></span>
+                    </div>
+                    <div class="av-radio-group vertical ">
+                        <span class="av-label">Đăng bởi</span>
+                        <div class="item vertical">
+                            <input class="input" name="user_type" type="radio" id="user_type0" value="">
+                            <label for="user_type0" class="value-label">
+                                <span>Tất cả</span>
+                            </label>
+                        </div>
+                        <div class="item vertical">
+                            <input class="input" name="user_type" type="radio" id="user_type1" value="0">
+                            <label for="user_type1" class="value-label">
+                                <span>Khách</span>
+                            </label>
+                        </div>
+                        <div class="item vertical">
+                            <input class="input" name="user_type" type="radio" id="user_type2" value="1">
+                            <label for="user_type2" class="value-label">
+                                <span>Cá nhân</span>
+                            </label>
+                        </div>
+                        <div class="item vertical">
+                            <input class="input" name="user_type" type="radio" id="user_type3" value="10">
+                            <label for="user_type3" class="value-label">
+                                <span>Cửa hàng</span>
+                            </label>
+                        </div>
+                    <span class="error"></span>
+                </div>
+                <div class="reset-button">
+                    <button class="button reset" type="reset">Xoá tất cả</button>
+                </div>
+                    </form>   
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <img src="https://asset.chopet.vn/banners/ads_web_pet_post_filter_500x500.jpg?t=webp" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <img src="https://asset.chopet.vn/temps/09-03-2021/8a2fa26fa6707baea588f136cfcb8e78a42350d0.jpg?t=webp" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <img src="https://asset.chopet.vn/temps/09-03-2021/1f612c3d77baa48a8bd8abfbf8fe5dcb0e05d037.jpg?t=webp" style="width:100%">
+                        </div>
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                        </div> 
+                </div>
+                </div>
+                <div class="pet-filter-wrap col-12 col-md-9">
+                    <div class="search-result-label">
+                        <span class="search-result-title">Lọc kết quả tìm kiếm theo:</span>
+                        <span class="label">Loại tin</span>
+                        <span class="value">Bán</span>
+                        <span class="value">Mua</span>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Full bể bọc đèn layout.webp" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Full bể bọc đèn layout</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">890.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Tĩnh</span>
+                                        </div><span class="date">Vừa xong</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Bo combo canxi nano va chibi powder tang kem Microchip.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Combo canxi nano va chibi powder tặng kèm Microchip</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">500.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">Vừa xong</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Chibi powder - Bột khoáng dinh dưỡng.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Chipi powder - Bột khoáng dinh dưỡng</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">170.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">29 giây trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Canxi Nano.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Canxi Nano</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">400.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">17 phút trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Dầu gội chuyên trị nấm da.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Dầu gội chuyên trị nấm da dành cho pet</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">280.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">17 phút trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Sữa cho chó mèo.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Sữa dành cho thú cưng</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">250.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <spa35 class="label"></spa35
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">36 phút trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Thanh Lý Lồng hàng không size lớn nhất.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Thanh lý lồng hàng không lớn nhất </h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">1.300.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">57 phút trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/may quet mictochip danh cho thu cung.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>máy quét mictochip dành cho thú cưng</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">200.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Hà Nội</span>
+                                        </div><span class="date">1 giờ trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Dầu cá hồi HightCoat(Thailand).jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Dầu cá hồi HightCoat(Thailand)</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">250.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">TP. Hồ Chí Minh</span>
+                                        </div><span class="date">1 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Sữa dê cho chó mèo nhỏ.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Sữa dê thức uống dinh dưỡng cho chó mèo</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">300.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Đà Nẵng</span>
+                                        </div><span class="date"> 1 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/thuốc trị ngoại ký sinh trùng cho chó mèo.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Thuốc trị ngoại ký sinh trùng cho chó mèo</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">200.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Tp.Hồ Chí Minh</span>
+                                        </div><span class="date"> 2 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vertical-pet-post-list">
+                        <div class="item sale-item">
+                            <div class="cover">
+                                <a class="image-wrapper" href="">
+                                    <img src="./quan sát/image/SanPham/Lồng mèo quý tử dành cho hamster xứ Việt.jpg" loading="lazy" class="lazy-image image" alt="Phốc sóc mini nhà đẻ" width="150px" height="150px">
+                                    <div class="top-left-icon"></div>
+                                    <svg viewBox="0 0 50 50" class="hot-icon">
+                                        <path fill="#fff" d="M38.14,5.89,34.07,10a.61.61,0,0,1-.43.18.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87Z"></path>
+                                        <path fill="#fff" d="M42.6,9.74a3.33,3.33,0,0,0-.77-1.15,3.16,3.16,0,0,0-1.15-.76,3.42,3.42,0,0,0-1.3-.22,3.75,3.75,0,0,0-1.31.31,3.93,3.93,0,0,0-1.16.81A4,4,0,0,0,36.1,9.9a3.49,3.49,0,0,0-.31,1.3A3.23,3.23,0,0,0,36,12.5a3.4,3.4,0,0,0,1.92,1.92,3.28,3.28,0,0,0,1.31.21,3.35,3.35,0,0,0,1.3-.31,3.59,3.59,0,0,0,1.16-.81,3.8,3.8,0,0,0,.81-1.16,3.49,3.49,0,0,0,.31-1.3A3.28,3.28,0,0,0,42.6,9.74Zm-1.16,1.81a2.67,2.67,0,0,1-.66,1,2.69,2.69,0,0,1-1.05.66,2.19,2.19,0,0,1-1.13.09,2,2,0,0,1-1.53-1.53,2.19,2.19,0,0,1,.09-1.13,2.62,2.62,0,0,1,.67-1,2.69,2.69,0,0,1,1-.67A2.19,2.19,0,0,1,40,8.89a2,2,0,0,1,1.53,1.53A2.19,2.19,0,0,1,41.44,11.55Z"></path>
+                                        <path fill="#fff" d="M48.26,15.38a.57.57,0,0,1-.18.42.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15A.6.6,0,0,1,48.26,15.38Z"></path>
+                                        <path d="M41.53,10.42A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42ZM20.16,0,50,29.84V0ZM33.64,10.14a.62.62,0,0,1-.45-.2A.6.6,0,0,1,33,9.52a.57.57,0,0,1,.18-.44l1.64-1.64L32.58,5.19,30.94,6.83A.57.57,0,0,1,30.5,7a.67.67,0,0,1-.63-.63A.67.67,0,0,1,30.06,6l4.07-4.07a.6.6,0,0,1,.43-.18.65.65,0,0,1,.63.63.58.58,0,0,1-.18.43L33.39,4.38l2.25,2.25L37.26,5a.55.55,0,0,1,.44-.17.62.62,0,0,1,.43.18.6.6,0,0,1,0,.87L34.07,10A.61.61,0,0,1,33.64,10.14Zm5.59,4.49a3.28,3.28,0,0,1-1.31-.21A3.4,3.4,0,0,1,36,12.5a3.23,3.23,0,0,1-.21-1.3,3.49,3.49,0,0,1,.31-1.3,4,4,0,0,1,.81-1.17,3.93,3.93,0,0,1,1.16-.81,3.75,3.75,0,0,1,1.31-.31,3.42,3.42,0,0,1,1.3.22,3.16,3.16,0,0,1,1.15.76,3.33,3.33,0,0,1,.77,1.15,3.28,3.28,0,0,1,.21,1.31,3.49,3.49,0,0,1-.31,1.3,3.8,3.8,0,0,1-.81,1.16,3.59,3.59,0,0,1-1.16.81A3.35,3.35,0,0,1,39.23,14.63Zm8.85,1.17a.56.56,0,0,1-.41.17.66.66,0,0,1-.42-.2l-1.1-1.11-3.69,3.69a.6.6,0,0,1-.44.18.68.68,0,0,1-.45-.21.63.63,0,0,1-.21-.45.58.58,0,0,1,.18-.43l3.69-3.69-1.1-1.11a.64.64,0,0,1-.2-.42.57.57,0,0,1,.18-.42.56.56,0,0,1,.41-.17.64.64,0,0,1,.42.2L48.06,15a.6.6,0,0,1,.2.42A.57.57,0,0,1,48.08,15.8ZM41,9.43a1.87,1.87,0,0,0-1-.54A2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1,2.19,2.19,0,0,0,.09-1.13A1.87,1.87,0,0,0,41,9.43Zm.54,1A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Zm0,0A2,2,0,0,0,40,8.89,2.19,2.19,0,0,0,38.87,9a2.69,2.69,0,0,0-1,.67,2.62,2.62,0,0,0-.67,1,2.19,2.19,0,0,0-.09,1.13,2,2,0,0,0,1.53,1.53,2.19,2.19,0,0,0,1.13-.09,2.69,2.69,0,0,0,1.05-.66,2.67,2.67,0,0,0,.66-1A2.19,2.19,0,0,0,41.53,10.42Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main">
+                                <a class="item-title" href="">
+                                    <h2 class="title-name"><span class="post-type-title">[bán]</span>Lồng mèo quý tử dành cho hamster xứ Việt</h2>
+                                </a>
+                                <div class="content">
+                                    <div class="content-list">
+                                        <div class="price content-item">
+                                            <span class="label">Giá:</span>
+                                            <span class="span">700.000đ</span></div>
+                                            <div class="breed content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                            <div class="gender content-item">
+                                                <span class="label"></span>
+                                                <span class="span"></span>
+                                            </div>
+                                        </div>
+                                        <div class="tag-icon">
+                                            <svg viewBox="0 0 50 50" class="trust-icon">
+                                                <path d="M42.34,21.54a1.87,1.87,0,0,1-1-1.43,1.9,1.9,0,0,1,1.26-2,1.85,1.85,0,0,0,1.28-2,1.87,1.87,0,0,0-1.75-1.67,1.92,1.92,0,0,1-1.75-1.69,1.88,1.88,0,0,1,.6-1.58,1.9,1.9,0,0,0-1.45-3.28,4.81,4.81,0,0,0-.48.12,1.9,1.9,0,0,1-2.52-1.57,2,2,0,0,1,.14-.94,1.9,1.9,0,0,0-1.95-2.65,1.85,1.85,0,0,0-1.1.54,1.88,1.88,0,0,1-3.17-1.14,1.15,1.15,0,0,1,0-.2A1.89,1.89,0,0,0,28.32.18,1.86,1.86,0,0,0,26.8,1.36a1.83,1.83,0,0,1-1.52,1.16,1.88,1.88,0,0,1-1.93-1.08,1.89,1.89,0,0,0-3.6.84,1.9,1.9,0,0,1-1.7,2,1.78,1.78,0,0,1-1.43-.47,1.9,1.9,0,0,0-3.13,1.61,1.7,1.7,0,0,0,.19.65,1.91,1.91,0,0,1-1.49,2.7,2,2,0,0,1-.76-.06,1.89,1.89,0,0,0-2.46,2,1.84,1.84,0,0,0,.68,1.2,1.94,1.94,0,0,1,.66,1.23,1.9,1.9,0,0,1-1.65,2.1,1.89,1.89,0,0,0-.31,3.7,1.88,1.88,0,0,1,1.36,1.61,1.86,1.86,0,0,1-.91,1.82A1.89,1.89,0,0,0,10,25.85h0a1.88,1.88,0,0,1,2.14,1.67,1.84,1.84,0,0,1-.32,1.29,1.89,1.89,0,0,0,1.72,3,2,2,0,0,0,.81-.3,1.91,1.91,0,0,1,2.89,1.39c0,.09,0,.16,0,.24a1.53,1.53,0,0,1,0,.36,1.88,1.88,0,0,0,2.08,2.24,1.81,1.81,0,0,0,1.33-.83A1.94,1.94,0,0,1,22,34.06a1.9,1.9,0,0,1,2.07,1.46A1.85,1.85,0,0,0,26.12,37a1.84,1.84,0,0,0,1.63-1.54,1.9,1.9,0,0,1,1.67-1.56,1.86,1.86,0,0,1,1.69.75,1.9,1.9,0,0,0,3.41-1.32c0-.06,0-.12,0-.2a.25.25,0,0,0,0-.08,1.88,1.88,0,0,1,1.63-2.32,1.75,1.75,0,0,1,1.11.23A1.9,1.9,0,0,0,40,29.09a1.76,1.76,0,0,0-.41-1,1.89,1.89,0,0,1,1.67-3A1.88,1.88,0,0,0,43.34,23,1.79,1.79,0,0,0,42.34,21.54Zm-4,2.08A13.72,13.72,0,1,1,30.81,5.75,13.73,13.73,0,0,1,38.35,23.62Z">
+                                                </path>
+                                                <path d="M36,34.51V50L25.79,44.19,15.25,50V34.51h1.26a1.56,1.56,0,0,1,0,.35,2,2,0,0,0,2.27,2.24,2,2,0,0,0,1.45-.83,2.13,2.13,0,0,1,3.71.64,2,2,0,0,0,2.26,1.46,2,2,0,0,0,1.78-1.54,2,2,0,0,1,1.81-1.56A2.13,2.13,0,0,1,31.6,36c1.3,1.57,3.93.52,3.71-1.31a.65.65,0,0,0,0-.2Z"></path><polygon points="21.67 19.38 21.63 19.33 21.63 19.19 21.67 19.38"></polygon><path d="M25.44,6.42A12.16,12.16,0,1,0,37.6,18.58,12.16,12.16,0,0,0,25.44,6.42ZM19.86,19.55a1.66,1.66,0,0,1-.2.84,1.42,1.42,0,0,1-.56.58,1.6,1.6,0,0,1-.83.2,1.62,1.62,0,0,1-.83-.2,1.56,1.56,0,0,1-.56-.58,1.66,1.66,0,0,1-.2-.84V17.47a.35.35,0,0,1,.1-.25.37.37,0,0,1,.26-.09.36.36,0,0,1,.24.09.32.32,0,0,1,.11.25v2.08a.94.94,0,0,0,.12.49.81.81,0,0,0,.33.33,1,1,0,0,0,.43.12,1.09,1.09,0,0,0,.47-.12.81.81,0,0,0,.33-.33.79.79,0,0,0,.14-.49V17.47a.44.44,0,0,1,.08-.25.34.34,0,0,1,.24-.09.32.32,0,0,1,.24.09.38.38,0,0,1,.09.25Zm3.7-2a.93.93,0,0,1,0,.1l-1.2,1.72v1.4a.33.33,0,0,1-.1.24.34.34,0,0,1-.58-.24V19.33l-1.19-1.59a.56.56,0,0,1-.08-.15.3.3,0,0,1,0-.13.33.33,0,0,1,.11-.25.47.47,0,0,1,.25-.1.34.34,0,0,1,.28.16l1,1.39.94-1.38a.36.36,0,0,1,.28-.17.35.35,0,0,1,.24.1.33.33,0,0,1,.11.26A.45.45,0,0,1,23.56,17.58Zm5,.12a.33.33,0,0,1-.25.09h-.89v3a.34.34,0,0,1-.11.24.35.35,0,0,1-.27.11.33.33,0,0,1-.27-.11.3.3,0,0,1-.1-.24v-3h-.91a.31.31,0,0,1-.24-.1.29.29,0,0,1-.11-.24.28.28,0,0,1,.11-.23.34.34,0,0,1,.24-.09h2.55a.33.33,0,0,1,.25.09.32.32,0,0,1,0,.48ZM30,20.8a.31.31,0,0,1-.12.24.3.3,0,0,1-.25.11.31.31,0,0,1-.26-.11.32.32,0,0,1-.09-.24V17.48a.32.32,0,0,1,.1-.25.37.37,0,0,1,.51,0,.36.36,0,0,1,.11.25Zm.52-4.36a.42.42,0,0,1-.16.13l-.57.3-.07,0h-.06a.24.24,0,0,1-.18-.06.18.18,0,0,1-.06-.15.1.1,0,0,1,0-.07.35.35,0,0,1,.05-.08l.5-.44.13-.09.15,0a.35.35,0,0,1,.2.07.25.25,0,0,1,.11.21A.44.44,0,0,1,30.53,16.44ZM34.12,21a.31.31,0,0,1-.25.11l-.15,0A.2.2,0,0,1,33.6,21l-2.11-2.66v2.44a.3.3,0,0,1-.08.23.31.31,0,0,1-.24.1.27.27,0,0,1-.22-.1.3.3,0,0,1-.09-.23V17.48a.36.36,0,0,1,.1-.25.38.38,0,0,1,.26-.1l.17,0a.27.27,0,0,1,.12.09l2.09,2.67V17.45a.36.36,0,0,1,.08-.23.33.33,0,0,1,.23-.09.27.27,0,0,1,.22.09.28.28,0,0,1,.09.23V20.8A.3.3,0,0,1,34.12,21Z"></path>
+                                                <path d="M21.63,19.19v.14l0,.05Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="right">
+                                            <svg viewBox="0 0 50 50" class="user-icon">
+                                                <path d="M44.37,25.55V45c0,2.79-3,5-6.62,5H12.26c-3.66,0-6.63-2.25-6.63-5V25.55c0-2.78,3-5,6.63-5h2.07a11.42,11.42,0,0,0,21.34,0h2.08C41.4,20.51,44.37,22.77,44.37,25.55Z"></path>
+                                                <path d="M36.42,11.58a11.57,11.57,0,0,1-.23,2.3h0l0,.12h0a11.42,11.42,0,0,1-22.32,0h0l0-.12h0a11.57,11.57,0,0,1-.23-2.3,11.42,11.42,0,0,1,22.84,0Z"></path>
+                                            </svg>
+                                            <span class="location">Đà Nẵng</span>
+                                        </div><span class="date"> 2 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                   
+            </div>
+           </div>
+           <div class="giua">
+            <div class="chuyentrang">
+            <a href="sanpham.html">&laquo;</a>
+            <a href="sanpham.html">1</a>
+            <a href="Sanpham1.html" class="active">2</a>
+            <a href="Sanpham1.html">&raquo;</a>
+            </div>
+          </div>
+ </div>
+        </div>
+         <footer class="footer">
+      <div class="a-footer"><h1>
+          <img src="./quan sát/image/logo/meogang.svg" alt=""></h1></div>
+      <div class="l-footer">
+      
+      
+      <p style="font-size: 20px; color: rgb(109, 8, 8);">HỖ TRỢ KHÁCH HÀNG</p> <br>
+      <p><p style="color: rgb(136, 17, 17);font-size: 19px;">Tổng Đài CSKH:<a href="">(1900).0004.0400</a> </p> 
+      <p style="color: rgb(112, 82, 82);">(Hỗ trợ từ 08 - 21h kể cả T7, CN)</p> <br>
+     
+      <p><p   style="color: rgb(126, 9, 9); font-size: 16px;">CHI NHÁNH 1:</p>Số 4 Nguyễn Dục, Hòa Hải, Quận Ngũ Hành Sơn, Tp.Đà Nẵng <br>
+      <p  style="color: rgb(63, 56, 56);">Phone: <a href="">0368.686.8888</a> </p>
+      <p style="color: rgb(116, 14, 14); font-size: 16px;">CHI NHÁNH 2:</p><br>
+      <p style="color: rgb(63, 56, 56);">Phone: <a href="">000.000.0000 </a></p>
+      Email: <a href="">info@petgang.net</a>  <br></p>
+          </p>
+      </div>
+      <ul class="r-footer">
+      <li>
+        
+      <h2>Follow</h2>
+      <ul class="boxx">
+      <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: blue;"></i></a></li>
+     <li><a href="#"><i class="fa-brands fa-twitter" style="color: blue;"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram" style="color: rgb(224, 49, 49);"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube" style="color: rgb(224, 49, 49);"></i></a></li>
+      </ul>
+      </li>
+      <li class="features">
+        <h2>
+      Hỗ trợ</h2>
+      <ul class="box h-box">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Tickets</a></li>
+      <li><a href="#">Certifications</a></li>
+      <li><a href="#">Customer Service</a></li>
+      </ul>
+      </li>
+      <li>
+        <h2>
+      Legal</h2>
+      <ul class="box">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Contract</a></li>
+      </ul>
+      </li>
+      </ul>
+      <div class="b-footer">
+      
+          
+       <p>From 2021 - 2022 © <a href="trangchu.html"
+          style="color: rgb(82, 108, 190);">Petgang.com</a> - Thương Hiệu Chưa Được Đăng Ký Bản Quyền </p>
+      </div>
+      </footer>
+</div>
+</div>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+</html>
